@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moqaddam</title>
+<style>
+  :root {
+    --bg: #0d0d0f;
+    --fg: #f5f5f5;
+    --accent: #6ee7ff;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    height: 100%;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: 'Courier New', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrap {
+    text-align: center;
+  }
+  .tag {
+    font-size: clamp(2rem, 8vw, 4rem);
+    letter-spacing: 0.05em;
+    font-weight: bold;
+  }
+  .tag span {
+    color: var(--accent);
+  }
+  .sub {
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    opacity: 0.5;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="tag">Moqaddam <span>&lt;/&gt;</span></div>
+    <div class="sub">building</div>
+  </div>
+</body>
+</html>
